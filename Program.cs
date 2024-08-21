@@ -49,7 +49,7 @@ internal class Program
         //январь
         list[0] = 31;
         //февраль
-        list[1] = 29;
+        list[1] = 28;
         //март
         list[2] = 31;
         //апрель
