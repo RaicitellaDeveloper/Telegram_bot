@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Security.Cryptography;
 using Telegram.Bot;
 using Telegram.Bot.Args;
@@ -43,7 +43,7 @@ internal class Program
         else if (msg.Text == "/start")
         {
             Console.WriteLine($"START");
-            await client.SendTextMessageAsync(msg.Chat.Id, $"ДОБРО ПОЖАЛОВАТЬ!");
+            await client.SendTextMessageAsync(msg.Chat.Id, $"Рад вас видеть!");
             await client.SendTextMessageAsync(msg.Chat.Id, msg.Text, replyMarkup: GetButtons());
         }
         //январь
